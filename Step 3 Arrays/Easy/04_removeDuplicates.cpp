@@ -17,8 +17,8 @@ int removeDuplicates(int arr[], int n)
 
 int main()
 {
-    int n = 8;
-    int arr[n] = {1, 1, 1, 2, 2, 3, 3,4};
+    int n = 6;
+    int arr[n] = {1, 1, 1, 3, 3,4};
 
     cout << removeDuplicates(arr, n);
     return 0;
